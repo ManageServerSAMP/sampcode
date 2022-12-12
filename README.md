@@ -11,3 +11,7 @@ Iremos disponibilidar filterscript para adicionar em seu servidor. Ao ligar o se
 - Ao ligar o servidor, qualquer erro apontado o servidor não será desligado. Caso tenha algum erro apenas o filterscript não será carregado.
 - Caso a nossa API esteja offline ou em manutenção o filterscript não vai iniciar, pois precisa enviar um HTTP-GET para nossa API.
 - Caso tenha mais de um servidor ligado no mesmo ```SA-MP dedicated server``` ou ```samp-.so``` (APLICATIVO DE INICIAR O SERVIDOR) o filterscript não vai iniciar. Só pode ter no máximo um servidor por porta ligado no mesmo IP.
+- Não é preciso adicionar nenhum tipo de plugin ou include no gamemode. Pois o arquivo .amx já vem totalmente compilado.
+
+# ChangeLog
+- Pelo site será possível gerenciar configurações de dentro do servidor, até mesmo configurações do AC.
